@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>475390129576-8vpe47j44sc9h720jainpa6ulplvpkm8.apps.googleusercontent.com</string>
+	<string>341860877210-psggp2pln3cv2eo2er6k6ja4qpkmia3u.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.475390129576-8vpe47j44sc9h720jainpa6ulplvpkm8</string>
+	<string>com.googleusercontent.apps.341860877210-psggp2pln3cv2eo2er6k6ja4qpkmia3u</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAcXFfPP4EfnXH7Uio6pvyj8wGe0rPFp2U</string>
+	<string>AIzaSyAgYRmXRiw5c4YbzrUniPsaF1c8EzKkL-c</string>
 	<key>GCM_SENDER_ID</key>
-	<string>475390129576</string>
+	<string>341860877210</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>robeab.weebly.PokeFinder</string>
+	<string>robeab.weebly.devslopes</string>
 	<key>PROJECT_ID</key>
-	<string>pokefinder-a3a7d</string>
+	<string>devslopes-social-82843</string>
 	<key>STORAGE_BUCKET</key>
-	<string>pokefinder-a3a7d.appspot.com</string>
+	<string>devslopes-social-82843.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:475390129576:ios:5e514945282fb929</string>
+	<string>1:341860877210:ios:eb6b31cf8b4bdef6</string>
 	<key>DATABASE_URL</key>
-	<string>https://pokefinder-a3a7d.firebaseio.com</string>
+	<string>https://devslopes-social-82843.firebaseio.com</string>
 </dict>
 </plist>

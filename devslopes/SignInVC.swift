@@ -41,13 +41,14 @@ class SignInVC: UIViewController {
         
     }
 
-    func firebaseAuth(_ credential: FIRAuthCredential){
+    func firebaseAuth(_ credential: FIRAuthCredential) {
         FIRAuth.auth()?.signIn(with: credential, completion: { (user, error) in
-            if error != nil{
-                print("Chuan: Unable to authenticate with Firebase \(error)")
-            }else {
-                print("Chuan: Succesfully authenticated with Firebase")
+            if error != nil {
+                print("Chuan: Unable to authenticate with Firebase - \(error)")
+                return
             }
+            print("Chuan: Successfully authenticated with Firebase")
+            
         })
     }
     
