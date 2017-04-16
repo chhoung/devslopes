@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C052BEBFBD0AB5218CC64BA3450F6547"
-               BuildableName = "GTMSessionFetcher.framework"
-               BlueprintName = "GTMSessionFetcher"
+               BlueprintIdentifier = "DD3951BB7E85653379213DF7B6E5E799"
+               BuildableName = "SwiftKeychainWrapper.framework"
+               BlueprintName = "SwiftKeychainWrapper"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C052BEBFBD0AB5218CC64BA3450F6547"
-            BuildableName = "GTMSessionFetcher.framework"
-            BlueprintName = "GTMSessionFetcher"
+            BlueprintIdentifier = "DD3951BB7E85653379213DF7B6E5E799"
+            BuildableName = "SwiftKeychainWrapper.framework"
+            BlueprintName = "SwiftKeychainWrapper"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -11,6 +11,7 @@ target 'devslopes' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'FBSDKLoginKit'
+  pod 'SwiftKeychainWrapper', :git => 'https://github.com/jrendel/SwiftKeychainWrapper.git', :branch => 'master'
 
 
 end
