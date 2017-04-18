@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		72C361DC21C136BED49F6E92 /* Pods_devslopes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADA6686067EE52A627D90D5 /* Pods_devslopes.framework */; };
 		8A0A0AE31EA1192F000A2FC7 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A0AE21EA1192F000A2FC7 /* FeedVC.swift */; };
+		8A0A0AE51EA360B1000A2FC7 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A0AE41EA360B1000A2FC7 /* CircleView.swift */; };
+		8A0BF24C1EA5B9C800374A89 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BF24B1EA5B9C800374A89 /* PostCell.swift */; };
 		8A4BD86F1E9794D1003BB4B7 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BD86E1E9794D1003BB4B7 /* FancyView.swift */; };
 		8A4BD8721E979566003BB4B7 /* Constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BD8711E979566003BB4B7 /* Constaints.swift */; };
 		8A4BD8741E97971D003BB4B7 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BD8731E97971D003BB4B7 /* RoundBtn.swift */; };
@@ -27,6 +29,8 @@
 		5ADA6686067EE52A627D90D5 /* Pods_devslopes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBF0A153B33B2A7409C34D0 /* Pods-devslopes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes.release.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes/Pods-devslopes.release.xcconfig"; sourceTree = "<group>"; };
 		8A0A0AE21EA1192F000A2FC7 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		8A0A0AE41EA360B1000A2FC7 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		8A0BF24B1EA5B9C800374A89 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		8A4BD86E1E9794D1003BB4B7 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		8A4BD8711E979566003BB4B7 /* Constaints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constaints.swift; sourceTree = "<group>"; };
 		8A4BD8731E97971D003BB4B7 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				8A4BD8731E97971D003BB4B7 /* RoundBtn.swift */,
 				8A4BD8751E9798F0003BB4B7 /* FancyField.swift */,
 				8A4BD8771E979A1F003BB4B7 /* FancyBtn.swift */,
+				8A0A0AE41EA360B1000A2FC7 /* CircleView.swift */,
+				8A0BF24B1EA5B9C800374A89 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0A0AE51EA360B1000A2FC7 /* CircleView.swift in Sources */,
 				8A4BD8761E9798F0003BB4B7 /* FancyField.swift in Sources */,
 				8ADA96E81E8B7295000277D2 /* SignInVC.swift in Sources */,
 				8A4BD8741E97971D003BB4B7 /* RoundBtn.swift in Sources */,
@@ -281,6 +288,7 @@
 				8ADA96E61E8B7295000277D2 /* AppDelegate.swift in Sources */,
 				8A4BD86F1E9794D1003BB4B7 /* FancyView.swift in Sources */,
 				8A4BD8781E979A1F003BB4B7 /* FancyBtn.swift in Sources */,
+				8A0BF24C1EA5B9C800374A89 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
