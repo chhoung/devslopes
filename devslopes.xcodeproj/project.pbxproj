@@ -17,6 +17,7 @@
 		8A4BD8761E9798F0003BB4B7 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BD8751E9798F0003BB4B7 /* FancyField.swift */; };
 		8A4BD8781E979A1F003BB4B7 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BD8771E979A1F003BB4B7 /* FancyBtn.swift */; };
 		8A9BBD471E9F4331008FE941 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BBD461E9F4331008FE941 /* GoogleService-Info.plist */; };
+		8AD983621EAA492F005E6308 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD983611EAA492F005E6308 /* DataService.swift */; };
 		8ADA96E61E8B7295000277D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA96E51E8B7295000277D2 /* AppDelegate.swift */; };
 		8ADA96E81E8B7295000277D2 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA96E71E8B7295000277D2 /* SignInVC.swift */; };
 		8ADA96EB1E8B7295000277D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADA96E91E8B7295000277D2 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 		8A4BD8771E979A1F003BB4B7 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		8A8FDD681E99F4D000DFA71C /* devslopes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = devslopes.entitlements; sourceTree = "<group>"; };
 		8A9BBD461E9F4331008FE941 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8AD983611EAA492F005E6308 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		8ADA96E21E8B7295000277D2 /* devslopes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devslopes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADA96E51E8B7295000277D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ADA96E71E8B7295000277D2 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		8AD983601EAA48FA005E6308 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8AD983611EAA492F005E6308 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		8ADA96D91E8B7295000277D2 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +136,7 @@
 		8ADA96E41E8B7295000277D2 /* devslopes */ = {
 			isa = PBXGroup;
 			children = (
+				8AD983601EAA48FA005E6308 /* Services */,
 				8A8FDD681E99F4D000DFA71C /* devslopes.entitlements */,
 				8A4BD8701E979556003BB4B7 /* Util */,
 				8A2C26431E8CC55A0007EB11 /* Model */,
@@ -284,6 +295,7 @@
 				8ADA96E81E8B7295000277D2 /* SignInVC.swift in Sources */,
 				8A4BD8741E97971D003BB4B7 /* RoundBtn.swift in Sources */,
 				8A4BD8721E979566003BB4B7 /* Constaints.swift in Sources */,
+				8AD983621EAA492F005E6308 /* DataService.swift in Sources */,
 				8A0A0AE31EA1192F000A2FC7 /* FeedVC.swift in Sources */,
 				8ADA96E61E8B7295000277D2 /* AppDelegate.swift in Sources */,
 				8A4BD86F1E9794D1003BB4B7 /* FancyView.swift in Sources */,
